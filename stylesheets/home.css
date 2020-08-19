@@ -16,15 +16,17 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-#Capa_1 {
   width: 100%;
   height: 100%;
   animation-name: get-reduced;
   animation-duration: 3s;
   animation-delay: 5s;
   animation-fill-mode: forwards;
+}
+
+#Capa_1 {
+  width: 100%;
+  height: 100%;
 }
 
 @-webkit-keyframes get-reduced { from { width: 100%; } to {  width: 50%; }  }

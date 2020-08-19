@@ -21,6 +21,6 @@ function yetiBlinking(){
 
 yetiTransition()
 
-setTimeout(function(){
-  document.querySelector(".home-title").style.display = "block"
-},8000)
+// setTimeout(function(){
+//   document.querySelector(".home-title").style.display = "block"
+// },8000)
