@@ -1,46 +1,14 @@
 body {
   margin: 0;
-}
-
-.navbar {
-  height: 100px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #47C9F1;
-  width: 100%;
-  position: fixed;
-  z-index: 100;
-}
-
-.yeti-home-btn {
-  width: 60px;
-  margin: 0 30px;
-}
-
-.nav-links-part-1 {
-  display: flex;
-  align-items: center;
-}
-
-.nav-links-part-2 {
-  margin: 0 30px;
-}
-
-.nav-links-part-2 a {
-  color: white;
-  font-size: 23px;
   font-family: 'Lato', sans-serif;
-  text-decoration: none;
-  padding: 10px;
 }
 
-.nav-links-part-2 a:hover {
-  border-bottom: 2px solid white;
+h1 {
+  font-weight: 500 !important;
 }
 
-.active-link {
-  border-bottom: 2px solid white;
+body::-webkit-scrollbar {
+  width: 0em;
 }
 
 .wrapper {
@@ -111,6 +79,3 @@ body {
         @keyframes show-on { from {  height: 0vh; opacity: 0; } to {  height: 30vh; opacity: 1; }  }
 
 
-body::-webkit-scrollbar {
-  width: 0em;
-}
