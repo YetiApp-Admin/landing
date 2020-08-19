@@ -16,8 +16,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  height: 100%;
+  width: 80%;
   animation-name: get-reduced;
   animation-duration: 3s;
   animation-delay: 5s;
@@ -29,8 +28,8 @@ body {
   height: 100%;
 }
 
-@-webkit-keyframes get-reduced { from { width: 100%; } to {  width: 50%; }  }
-        @keyframes get-reduced { from { width: 100%; } to {  width: 50%; }  }
+@-webkit-keyframes get-reduced { from { width: 80%; } to {  width: 40%; }  }
+        @keyframes get-reduced { from { width: 80%; } to {  width: 40%; }  }
 
 
 .home-title {
