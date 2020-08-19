@@ -10,6 +10,7 @@ body {
   background-color: #47C9F1;
   width: 100%;
   position: fixed;
+  z-index: 100;
 }
 
 .yeti-home-btn {
@@ -49,7 +50,14 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.blue-div {
   background-color: #47C9F1;
+}
+
+.grey-div {
+  background-color: #f2f2f2;
 }
 
 .svg-container {
@@ -101,3 +109,8 @@ body {
 
 @-webkit-keyframes show-on { from {  height: 0vh; opacity: 0; } to {  height: 30vh; opacity: 1; }  }
         @keyframes show-on { from {  height: 0vh; opacity: 0; } to {  height: 30vh; opacity: 1; }  }
+
+
+body::-webkit-scrollbar {
+  width: 0em;
+}
