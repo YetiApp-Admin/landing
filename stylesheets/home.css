@@ -27,8 +27,8 @@ body {
   animation-fill-mode: forwards;
 }
 
-@-webkit-keyframes get-reduced { from { width: 100%; height: 100%; } to {  width: 50%; height: 70%; }  }
-        @keyframes get-reduced { from { width: 100%; height: 100%; } to {  width: 50%; height: 70%; }  }
+@-webkit-keyframes get-reduced { from {  } to {  width: 50%; height: 70%; }  }
+        @keyframes get-reduced { from {  } to {  width: 50%; height: 70%; }  }
 
 
 .home-title {
