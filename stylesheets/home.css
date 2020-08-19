@@ -17,20 +17,28 @@ body {
   margin: 0 30px;
 }
 
-.nav-links {
+.nav-links-part-1 {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links-part-2 {
   margin: 0 30px;
 }
 
-.nav-links a {
+.nav-links-part-2 a {
   color: white;
   font-size: 23px;
   font-family: 'Lato', sans-serif;
   text-decoration: none;
-  /*margin: 0 10px;*/
   padding: 10px;
 }
 
-.nav-links a:hover {
+.nav-links-part-2 a:hover {
+  border-bottom: 2px solid white;
+}
+
+.active-link {
   border-bottom: 2px solid white;
 }
 
