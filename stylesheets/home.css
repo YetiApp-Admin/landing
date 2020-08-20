@@ -79,3 +79,7 @@ body::-webkit-scrollbar {
         @keyframes show-on { from {  height: 0vh; opacity: 0; } to {  height: 30vh; opacity: 1; }  }
 
 
+.home-subtitle {
+  color: #16444F;
+  font-size: 28px;
+}

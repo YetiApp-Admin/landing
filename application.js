@@ -24,3 +24,8 @@ yetiTransition()
 setTimeout(function(){
   document.querySelector(".home-title").style.display = "block"
 },8000)
+
+var solution = document.getElementById("solution-link")
+window.addEventListener("scroll", (event)=> {
+  solution.classList.add("active-link")
+})
