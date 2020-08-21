@@ -6,6 +6,26 @@
   min-height: 50vh;
 }
 
+.simple-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 25%;
+  height: 100%;
+  margin: 30px;
+  z-index: 120;
+}
+
+.card-img {
+  max-width: 40%;
+}
+
+.card-img img {
+  width: 100%;
+}
+
 .card {
   background-color: white;
   border-radius: 30px;
@@ -75,6 +95,10 @@
 @media screen and (max-width: 1050px) {
   .cards-container {
     flex-direction: column;
+  }
+
+  .simple-card {
+    width: 70%;
   }
 
   .flip-card {
